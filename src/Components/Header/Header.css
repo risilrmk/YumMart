@@ -1,0 +1,36 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url(/header_img.png) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vh;
+    animation: FadeIn 3s;
+}
+.header-contents h2{
+    font-weight: 650;
+    font-size: 70px;
+    color: #ffffff;
+}
+.header-contents p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 525;
+}
+.header-contents button{
+    padding: 15px 20px;
+    background-color: #ff7423;
+    border: 1px solid #ff7423;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 15px;
+}

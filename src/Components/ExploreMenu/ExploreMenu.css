@@ -1,0 +1,39 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu h1 {
+    font-size: 30px;
+    color: #4b4545;
+}
+.explore-menu span{
+    font-style: italic;
+}
+.explore-menu p{
+    line-height: 25px;
+    color: #4b4545;
+} 
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+.explore-menu hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: #4b4545;
+    border: none;
+}
+.explore-menu-list-items .active{
+    transition: .3s;
+    border: 10px solid #FF630B;
+    padding: 5px;
+    border-radius: 50%;
+    width: 135px;
+
+}

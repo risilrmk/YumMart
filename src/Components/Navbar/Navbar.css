@@ -1,0 +1,74 @@
+.navbar{
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .head-logo .logo{
+    width: 60px;
+}
+.navbar .head-logo h1{
+    font-size: 30px;
+    color: #FF630B;
+}
+
+.navbar-menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+    color: #444;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-right button{
+    background-color: #FF630B;
+    color: #444;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid #FF630B;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.navbar-right button:hover{
+    background: transparent;
+    color: #FF630B;
+    border: 1px solid #FF630B;
+    transition: 0.5s;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #FF630B;
+}
+.navbar-right .navbar-search-icon{
+    position: relative;
+}
+.navbar-right .navbar-search-icon .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #FF630B;
+    border-radius: 50px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+@media (max-width: 1050px) {
+    .navbar .head-logo .logo{
+        width: 50px;
+    }
+}
