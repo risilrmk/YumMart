@@ -34,3 +34,34 @@
     color: #ffffff;
     font-size: 15px;
 }
+@media (max-width:1050px){
+
+    .header-contents{
+        max-width: 55%;
+        margin-left: -20px;
+    }
+    .header-contents h2{
+        font-size: 50px;
+        font-weight: 100;
+    }
+    .header-contents button{
+        padding: 1vw 2vw;
+    }
+
+}
+@media (max-width:750px){
+
+    .header-contents{
+        max-width: 65%;
+
+    }
+    .header-contents h2{
+        font-size: 30px;
+    }
+    .header-contents p{
+         display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
