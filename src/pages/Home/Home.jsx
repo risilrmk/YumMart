@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './Home.css'
 import Header from '../../Components/Header/Header'
-import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../Components/AppDownload/AppDownload'
+import ExploreMenu from '../../Components/ExploreMenu/ExploreMenu'
 
 const Home = () => {
 
