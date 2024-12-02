@@ -3,7 +3,7 @@
     z-index: 1;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    backdrop-filter: blur(20px);
     display: grid;
 }
 .login-popup-container{
@@ -18,7 +18,6 @@
     border-radius: 8px;
     font-size: 14px;
     padding: 30px;
-
     animation: fadeIn 0.5s;
 }
 .login-popup-title{
@@ -55,7 +54,7 @@
     align-items: start;
     gap: 8px;
     margin-top: -15px;
-}
+ }
 .login-popup-container input{
     margin-top: 5px;
 }

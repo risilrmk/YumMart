@@ -10,9 +10,9 @@ const Navbar = ({setShowLogin} ) => {
     return (
         <div>
             <div className='navbar'>
-                <img src={assets.logo} alt="Website Logo" className='logo' />
+               <Link to='/'> <img src={assets.logo} alt="Website Logo" className='logo' /></Link>
                 <ul className="navbar-menu">
-                    <Link><a onClick={()=>setMenu("home")} className={menu==="home"?"active":""} href="#home">Home</a></Link>
+                    <a onClick={()=>setMenu("home")} className={menu==="home"?"active":""} href="#home">Home</a>
                     <li><a onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}href="#explore-menu">Menu</a></li>
                     <li><a onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}href="#app-download">Mobile App</a></li>
                     <li><a onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}href="#footer">Contact Us</a></li>
