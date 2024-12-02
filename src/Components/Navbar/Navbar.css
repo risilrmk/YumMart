@@ -6,7 +6,7 @@
 }
 
 .navbar .logo {
-    height: 35px;
+    width: 150px;
     display: flex;
     align-items: center;
     gap: 20px;
