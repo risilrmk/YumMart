@@ -60,11 +60,11 @@
     border-bottom: 2px solid #FF630B;
 }
 
-.navbar-right .navbar-search-icon {
+.navbar-right .navbar-icon {
     position: relative;
 }
 
-.navbar-right .navbar-search-icon .dot {
+.navbar-right .navbar-icon .dot {
     width: 10px;
     height: 10px;
     background-color: #FF630B;

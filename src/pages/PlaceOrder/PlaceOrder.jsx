@@ -5,7 +5,7 @@ import { StoreContext } from '../../context/StoreContext'
 
 const PlaceOrder = () => {
 
-const {getTotalCartAmount} = useContext(StoreContext)
+  const { getTotalCartAmount } = useContext(StoreContext)
 
   return (
     <div className='place-order'>
@@ -27,7 +27,7 @@ const {getTotalCartAmount} = useContext(StoreContext)
         <input type="text" placeholder='Phone number' />
       </div>
       <div className="place-order-right">
-      <div className="cart-total">
+        <div className="cart-total">
           <h2>Cart Totals</h2>
           <div>
             <div className="cart-total-details">
@@ -37,14 +37,14 @@ const {getTotalCartAmount} = useContext(StoreContext)
             <hr />
             <div className="cart-total-details">
               <p>Delivery fee</p>
-              <p>₹{getTotalCartAmount()===0?0:49}</p>
+              <p>₹{getTotalCartAmount() === 0 ? 0 : 49}</p>
 
 
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Total</b>
-              <b>₹{getTotalCartAmount()===0?0:getTotalCartAmount()+49}</b>
+              <b>₹{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 49}</b>
             </div>
           </div>
           <button>PROCEED TO PAY</button>
