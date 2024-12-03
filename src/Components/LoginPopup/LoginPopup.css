@@ -18,11 +18,7 @@
     padding: 25px 30px;
     font-size: 14px;
     animation: fadeIn 0.5s;
-<<<<<<< HEAD
-    box-shadow: 10px 10px 0px .5px rgb(255, 148, 129);
-=======
-
->>>>>>> 4a6672903632afd1f4ba78a8415da84a3181cd2e
+    box-shadow: 10px 10px 0px .5px rgb(255, 148, 129)
 }
 .login-popup-title{
     display: flex;
@@ -67,9 +63,8 @@
     font-weight: 500;
     cursor: pointer;
 }
-<<<<<<< HEAD
+
 .login-popup-container button:hover{
     box-shadow: 8px 8px 0px 0px rgb(253, 171, 157);
     transition: 0.5s ease-out;}
-=======
->>>>>>> 4a6672903632afd1f4ba78a8415da84a3181cd2e
+
