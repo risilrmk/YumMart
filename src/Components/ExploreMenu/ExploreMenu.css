@@ -24,6 +24,9 @@
     margin: 20px 0;
     overflow: auto;
 }
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
 .explore-menu hr{
     margin: 10px 0;
     height: 2px;
