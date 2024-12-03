@@ -19,6 +19,7 @@
     font-size: 14px;
     padding: 30px;
     animation: fadeIn 0.5s;
+    box-shadow: 1px 1px 1px 10px black;
 }
 .login-popup-title{
     display: flex;
